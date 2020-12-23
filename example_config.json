@@ -1,0 +1,40 @@
+{
+    "influx_config": {
+        "influx_host" : "raspberrypi-unifi.local",
+        "host" : "127.0.0.1",
+        "port" : 8086,
+        "dbname" : "home",
+        "user" : "grafana",
+        "password" : "hidden"
+    },
+    "location": [
+        {
+            "name": "floor",
+            "sensors": [
+                {
+                    "id" : "28-00000bc1308b",
+                    "description" : "aanvoer"
+                },
+                {
+                    "id" : "28-00000bc1308b",
+                    "description" : "aanvoer"
+                }
+            ]
+
+        },
+        {
+            "name": "CV",
+            "sensors": [
+                {
+                    "id" : "28-00000bc1308b",
+                    "description" : "aanvoer"
+                },
+                {
+                    "id" : "28-00000bc1308b",
+                    "description" : "aanvoer"
+                }
+            ]
+        }
+
+    ]
+}
